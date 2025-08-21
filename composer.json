@@ -1,0 +1,45 @@
+{
+  "name": "maratib/just-blade",
+  "version": "0.0.7",
+  "description": "Just Blade standalone templating engine for use outside of Laravel.",
+  "keywords": [
+    "php",
+    "laravel",
+    "blade",
+    "template",
+    "template engine",
+    "wordpress",
+    "wordpress theme",
+    "view",
+    "render"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wp-theme",
+      "homepage": "https://wp-theme.github.io/just-blade"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/view": "11.7.0",
+    "illuminate/config": "^11.44.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.1",
+    "laravel/pint": "^1.22"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "lint": "vendor/bin/pint --test",
+    "fix": "vendor/bin/pint"
+  },
+  "autoload": {
+    "psr-4": {
+      "Just\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
