@@ -1,5 +1,6 @@
 {
   "name": "maratib/just-blade",
+  "version": "0.0.7",
   "description": "Just Blade standalone templating engine for use outside of Laravel.",
   "keywords": [
     "php",
