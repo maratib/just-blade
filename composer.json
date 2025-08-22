@@ -1,6 +1,5 @@
 {
   "name": "maratib/just-blade",
-  "version": "0.0.7",
   "description": "Just Blade standalone templating engine for use outside of Laravel.",
   "keywords": [
     "php",
@@ -51,5 +50,7 @@
     "psr-4": {
       "Just\\": "src"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
